@@ -1,0 +1,23 @@
+df_dev:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/dataset_kobe_dev.parquet
+
+df_prod:
+  type: pandas.ParquetDataset
+  filepath: data/01_raw/dataset_kobe_prod.parquet
+
+df_explorado_dev:
+  type: pandas.ExcelDataset
+  filepath: data/08_reporting/df_explorado_dev.xlsx
+
+df_explorado_prod:
+  type: pandas.ExcelDataset
+  filepath: data/08_reporting/df_explorado_prod.xlsx
+
+dataset_kobe_dev_formated:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/dataset_kobe_dev_formated.parquet
+
+dataset_kobe_prod_formated:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/dataset_kobe_prod_formated.parquet

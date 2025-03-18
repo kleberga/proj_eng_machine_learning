@@ -1,0 +1,11 @@
+ipython>=8.10
+jupyterlab>=3.0
+kedro~=0.19.11
+notebook
+scikit-learn
+kedro[jupyter]
+pandas
+pyarrow
+fastparquet
+kedro-datasets
+openpyxl
