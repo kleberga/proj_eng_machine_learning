@@ -4,4 +4,4 @@ Este documento tem por objetivo apresentar as informações necessárias do proj
 
 ## Diagrama das etapas necessárias do projeto
 
-[Diagrama do projeto](diagrama.png).
+[Diagrama do projeto](diagrama.PNG).
